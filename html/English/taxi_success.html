@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxi Documents Successfully Submitted</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+    <style>
+      body {
+        background-color: #f2f7fb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        max-width: 500px;
+        text-align: center;
+        opacity: 0;
+        transform: scale(0.8);
+        animation: fadeInScale 1s forwards;
+      }
+      @keyframes fadeInScale {
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      .btn-home {
+        margin-top: 20px;
+        transform: translateY(20px);
+        opacity: 0;
+        animation: btnFadeIn 1s forwards 1s;
+      }
+      @keyframes btnFadeIn {
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      .success-icon {
+        font-size: 60px;
+        color: #28a745;
+        margin-bottom: 15px;
+        opacity: 0;
+        transform: scale(0);
+        animation: iconPop 0.8s forwards;
+      }
+      @keyframes iconPop {
+        50% {
+          transform: scale(1.3);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="success-icon">&#10004;</div>
+      <!-- Green check -->
+      <h3 class="mb-3 text-success">Your request has been submitted!</h3>
+      <p>
+        Your documents will soon be reviewed by the
+        <strong>Chatak</strong> team.
+      </p>
+      <p>
+        Please be patient and ready to receive confirmation or messages from our
+        team.
+      </p>
+
+      <a href="../../../index.html" class="btn btn-primary btn-home">Back to Form</a>
+    </div>
+  </body>
+</html>

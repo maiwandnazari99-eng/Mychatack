@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driver Registration</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/driver-registration.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body style="background-color: #fff" dir="ltr">
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center mb-4">Driver Registration Form</h3>
+        <div class="col-sm-12 col-md-6">
+          <div class="registration-form btn-outline-custom">
+            <form id="driverForm">
+              <div class="mb-3">
+                <label class="form-label">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="firstName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Father’s Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fatherName"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <select class="form-control" name="gender" required>
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Province</label>
+                <select
+                  class="form-control"
+                  name="province"
+                  id="province"
+                  required
+                >
+                  <option value="">Select Province</option>
+                  <option value="Badakhshan">Badakhshan</option>
+                  <option value="Badghis">Badghis</option>
+                  <option value="Baghlan">Baghlan</option>
+                  <option value="Bamyan">Bamyan</option>
+                  <option value="Daykundi">Daikundi</option>
+                  <option value="Farah">Farah</option>
+                  <option value="Faryab">Faryab</option>
+                  <option value="Ghazni">Ghazni</option>
+                  <option value="Ghor">Ghor</option>
+                  <option value="Helmand">Helmand</option>
+                  <option value="Herat">Herat</option>
+                  <option value="Jowzjan">Jowzjan</option>
+                  <option value="Kabul">Kabul</option>
+                  <option value="Kandahar">Kandahar</option>
+                  <option value="Kapisa">Kapisa</option>
+                  <option value="Khost">Khost</option>
+                  <option value="Kunar">Kunar</option>
+                  <option value="Kunduz">Kunduz</option>
+                  <option value="Laghman">Laghman</option>
+                  <option value="Logar">Logar</option>
+                  <option value="Nangarhar">Nangarhar</option>
+                  <option value="Nimroz">Nimroz</option>
+                  <option value="Nuristan">Nuristan</option>
+                  <option value="Paktia">Paktia</option>
+                  <option value="Paktika">Paktika</option>
+                  <option value="Panjshir">Panjshir</option>
+                  <option value="Parwan">Parwan</option>
+                  <option value="Samangan">Samangan</option>
+                  <option value="Sar-e Pol">Sar-e Pol</option>
+                  <option value="Takhar">Takhar</option>
+                  <option value="Urozgan">Urozgan</option>
+                  <option value="Wardak">Wardak</option>
+                  <option value="Zabul">Zabul</option>
+                </select>
+              </div>
+              <br /><br /><br />
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class="registration-form btn-outline-custom">
+            <form id="driverForm">
+              <div class="mb-3">
+                <label class="form-label">District</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="district"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Village</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="village"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Driver Photo</label>
+                <input
+                  type="file"
+                  class="form-control"
+                  name="driverPhoto"
+                  accept="image/*"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">National ID (Tazkira) Photo</label>
+                <input
+                  type="file"
+                  class="form-control"
+                  name="idPhoto"
+                  accept="image/*"
+                  required
+                />
+              </div>
+
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="termsCheck"
+                  required
+                />
+                <label class="form-check-label" for="termsCheck"
+                  >I agree to the terms and conditions</label
+                >
+              </div>
+
+              <a href="taxi_success.html" class="btn-outline-custom w">
+                Register
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/driver-registration.js"></script>
+  </body>
+</html>

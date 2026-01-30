@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ورود شماره</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/phone.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+    <style></style>
+  </head>
+  <body>
+    <div class="card" id="card1">
+      <h3 class="taxt-center mb-5">خوش آمدید</h3>
+      <h5 class="mb-3 fon text-muted">
+        لطفا‌ً شماره تماس خود را وارد کنید تا بتوانیم با شما در ارتباط باشیم
+      </h5>
+      <input
+        id="phone"
+        class="form-control form-control-lg mb-2 fon"
+        type="tel"
+        maxlength="10"
+        placeholder="07-------- شماره تماس"
+        inputmode="numeric"
+      />
+      <p class="text-muted fon">
+        با ثبت نام در چتک
+        <strong style="color: rgb(27, 112, 232)">قوانین</strong> و شرایط بیانیه
+        <strong style="color: rgb(27, 112, 232)">حریم خصوصی</strong> را قبول
+        میکنم
+      </p>
+
+      <button id="sendBtn" class="btn btn-outline-custom w-100 btn-lg" disabled>
+        دریافت کد تایید
+      </button>
+    </div>
+    <div class="card card2" id="card2">
+      کود شما است:
+      <h3 class="code" id="code"></h3>
+      <button id="btncode" class="btn btn-outline-custom w-100">Confirm</button>
+    </div>
+
+    <script src="../../js/phone.js"></script>
+  </body>
+</html>

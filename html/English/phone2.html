@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Phone Number Login — Modern Site</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/phone2.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body>
+    <div class="card">
+      <h5 class="mb-3">Login with Phone Number</h5>
+      <input
+        id="phone"
+        class="form-control form-control-lg mb-2"
+        type="tel"
+        maxlength="10"
+        placeholder="07XXXXXXXX"
+        inputmode="numeric"
+      />
+      <div class="mb-3 small text-muted">
+        The number must start with 07 and be 10 digits long.
+      </div>
+      <button id="sendBtn" class="btn btn-primary w-100 btn-lg" disabled>
+        Get Verification Code
+      </button>
+    </div>
+
+    <script src="../../js/phone2.js"></script>
+  </body>
+</html>

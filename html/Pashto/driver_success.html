@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>د ټکسي مشخصات او اسناد</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/driver-success.css" />
+    <link rel="stylesheet" href="../../css/pashto_font.css">
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h4 class="text-center mb-4">د ټکسي مشخصات او اسناد فورمه</h4>
+        <div class="col-sm-12 col-md-6">
+          <form id="taxiForm" enctype="multipart/form-data">
+          <div class="card btn-outline-custom">
+            <div class="card-body">
+              
+              
+                <div class="mb-3">
+                  <label class="form-label">د پلیت شمېره</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="plate"
+                    placeholder="مثال: 1234 کابل"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">مارک</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="brand"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">موډل / د جوړېدو کال</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="model"
+                    placeholder="مثال: Corolla 2015"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">رنګ</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="color"
+                    required
+                  />
+                </div>
+<br><br>
+              </form>
+          </div>
+          </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <form id="taxiForm" enctype="multipart/form-data">
+          <div class="card btn-outline-custom">
+
+                <h5 class="mb-3">اسناد او جوازونه (فایلونه پورته کړئ)</h5>
+
+                <div class="mb-3">
+                  <label class="form-label"
+                    >د وسایطو د ثبت سند
+                    <span class="text-danger">(اجباري)</span></label
+                  >
+                  <input
+                    type="file"
+                    class="form-control"
+                    name="registration"
+                    accept="image/*,application/pdf"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label"
+                    >د ټکسي جواز / اجازه
+                    <span class="text-danger">(که موجود وي)</span></label
+                  >
+                  <input
+                    type="file"
+                    class="form-control"
+                    name="permit"
+                    accept="image/*,application/pdf"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label"
+                    >د موټر چلونې جواز
+                    <span class="text-danger">(اجباري)</span></label
+                  >
+                  <input
+                    type="file"
+                    class="form-control"
+                    name="driverLicense"
+                    accept="image/*,application/pdf"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label"
+                    >د ټکسي انځورونه (مخ او اړخ)
+                    <span class="text-danger">(اجباري)</span></label
+                  >
+                  <input
+                    type="file"
+                    class="form-control"
+                    name="taxiPhotos"
+                    accept="image/*"
+                    multiple
+                    required
+                  />
+                </div>
+
+                <div class="form-check mb-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="agree"
+                    id="agreeDocs"
+                    required
+                  />
+                  <label class="form-check-label" for="agreeDocs">
+                    زه تایید کوم چې ټول پورته شوي اسناد صحیح او زما/شرکت پورې
+                    اړه لري.
+                  </label>
+                </div>
+
+                <div class="d-grid gap-2">
+                  <a href="taxi_success.html" class="btn-outline-custom w">
+                    لیږل
+                  </a>
+                </div>
+
+          </div>
+        </form>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="../../js/driver-success.js"></script>
+  </body>
+</html>

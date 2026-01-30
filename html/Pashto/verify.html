@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>کوډ تایید کړئ</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/verify.css" />
+    <link rel="stylesheet" href="../../css/pashto_font.css">
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body>
+    <div class="card">
+      <h5 class="mb-2 mb-5">څلور عددي کوډ دننه کړئ</h5>
+      <div class="mb-2 text-muted small">
+        کوډ دې شمېره ته <strong id="phoneDisplay">-</strong> واستول شو
+      </div>
+
+      <div class="otp-row mb-3">
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+      </div>
+
+      <div class="d-flex justify-content-center gap-2 mb-2">
+        <button id="verifyBtn" class="btn-outline-custom w2 btn-sm">
+          تایید
+        </button>
+      </div>
+      <div id="msg" class="msg"></div>
+    </div>
+    <script src="../../js/verify.js"></script>
+  </body>
+</html>

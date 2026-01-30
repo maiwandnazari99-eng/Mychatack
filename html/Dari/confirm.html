@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تایید سفر - تاکسی آنلاین</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/confrim.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-size: 2em;
+        background: #93d7ff;
+        color: #fff;
+      }
+      .content {
+        display: none;
+        padding: 40px;
+        text-align: center;
+        font-size: 2em;
+      }
+      .blue {
+        color: #33a1e0;
+      }
+      .text {
+        color: #0d1164;
+      }
+      .white {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="spinner-grow blue" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow white" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow blue" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow white" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow blue" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <div style="display: none" id="final" class="card btn-outline-custom bd">
+      <div class="card">
+        <div class="success-icon">&#10004;</div>
+        <!-- تیک سبز -->
+        <h3 class="mb-3 text-success">درخواست شما ثبت شد!</h3>
+        <p>سفر شما <strong>چتک</strong> بررسی خواهد شد.</p>
+        <p>لطفاً صبور باشید و آماده دریافت تایید یا پیام راننده ما باشید.</p>
+
+        <a href="index_per.html" class="btn btn-primary btn-home"
+          >بازگشت به صفحه اصلی</a
+        >
+      </div>
+    </div>
+    <script src="../../js/confirm.js"></script>
+  </body>
+</html>

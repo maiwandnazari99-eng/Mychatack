@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Enter Phone Number</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/phone.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body>
+    <div class="card" id="card1">
+      <h3 class="text-center mb-5">Welcome</h3>
+      <h5 class="mb-3 font text-muted">
+        Please enter your phone number so we can contact you
+      </h5>
+      <input
+        id="phone"
+        class="form-control form-control-lg mb-2 font"
+        type="tel"
+        maxlength="10"
+        placeholder="07xxxxxxxx Phone Number"
+        inputmode="numeric"
+      />
+      <p class="text-muted font">
+        By registering on Chatak, I agree to the
+        <strong style="color: #00c8ff">Terms</strong> and the
+        <strong style="color: #00c8ff">Privacy Policy</strong>
+      </p>
+
+      <button id="sendBtn" class="btn btn-outline-custom w-100" disabled>
+        Get Verification Code
+      </button>
+    </div>
+    <div class="card card2" id="card2">
+      Your code is:
+      <h3 class="code" id="code"></h3>
+      <button id="btncode" class="btn btn-outline-custom w-100">Confirm</button>
+    </div>
+    <script src="../../js/phone.js"></script>
+  </body>
+</html>

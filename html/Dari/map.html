@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>انتخاب مسیر - تاکسی آنلاین</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="../../css/map.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body class="bg-light text-center background-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="container container-custom py-4">
+            <h2 class="text-center mb-3">انتخاب مبدا و مقصد</h2>
+
+            <div class="row g-2 mb-3">
+              <form action="">
+                مبدا را وارد کنید:
+                <input
+                  id="start"
+                  type="text"
+                  class="form-control w1"
+                  placeholder="مبدا..."
+                />
+
+                مقصد را وارد کنید:
+                <input
+                  id="end"
+                  type="text"
+                  class="form-control w1 wer"
+                  placeholder="مقصد..."
+                />
+              </form>
+            </div>
+            <br />
+            <br /><br /><br />
+            <button
+              id="showRoute"
+              class="btn-outline-custom"
+              onclick="window.location.href='#map'"
+            >
+              نمایش مسیر
+            </button>
+            <br />
+            <br />
+            <button
+              id="showRoute"
+              class="btn-outline-custom"
+              onclick="window.location.href='taxi-city.html'"
+            >
+              رفتن به عقب
+            </button>
+            <br />
+            <br /><br /><br />
+            <br />
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div id="map"></div>
+          <button
+            id="confirm"
+            class="btn-outline-custom confirm w-100 mt-2 mb-2"
+            disabled
+          >
+            تایید مسیر
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="../../js/map.js"></script>
+  </body>
+</html>

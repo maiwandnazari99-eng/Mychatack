@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ps">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>د موټر چلونکي ثبت نام</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/driver-registration.css" />
+    <link rel="stylesheet" href="../../css/pashto_font.css">
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body style="background-color: #fff" dir="rtl">
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center mb-4">د موټر چلونکي د ثبت فورمه</h3>
+        <div class="col-sm-12 col-md-6">
+          <div class="registration-form btn-outline-custom">
+            <form id="driverForm">
+              <div class="mb-3">
+                <label class="form-label">نوم</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="firstName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">تخلص</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">د پلار نوم</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fatherName"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">جنس</label>
+                <select class="form-control" name="gender" required>
+                  <option value="">انتخاب کړئ</option>
+                  <option value="male">نارینه</option>
+                  <option value="female">ښځه</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">ولایت</label>
+                <select
+                  class="form-control"
+                  name="province"
+                  id="province"
+                  required
+                >
+                  <option value="">ولایت انتخاب کړئ</option>
+                  <option value="Badakhshan">بدخشان</option>
+                  <option value="Badghis">بادغیس</option>
+                  <option value="Baghlan">بغلان</option>
+                  <option value="Bamyan">بامیان</option>
+                  <option value="Daykundi">دایکندی</option>
+                  <option value="Farah">فراه</option>
+                  <option value="Faryab">فاریاب</option>
+                  <option value="Ghazni">غزنی</option>
+                  <option value="Ghor">غور</option>
+                  <option value="Helmand">هلمند</option>
+                  <option value="Herat">هرات</option>
+                  <option value="Jowzjan">جوزجان</option>
+                  <option value="Kabul">کابل</option>
+                  <option value="Kandahar">کندهار</option>
+                  <option value="Kapisa">کاپیسا</option>
+                  <option value="Khost">خوست</option>
+                  <option value="Kunar">کنړ</option>
+                  <option value="Kunduz">کندز</option>
+                  <option value="Laghman">لغمان</option>
+                  <option value="Logar">لوګر</option>
+                  <option value="Nangarhar">ننګرهار</option>
+                  <option value="Nimroz">نیمروز</option>
+                  <option value="Nuristan">نورستان</option>
+                  <option value="Paktia">پکتیا</option>
+                  <option value="Paktika">پکتیکا</option>
+                  <option value="Panjshir">پنجشیر</option>
+                  <option value="Parwan">پروان</option>
+                  <option value="Samangan">سمنگان</option>
+                  <option value="Sar-e Pol">سرپل</option>
+                  <option value="Takhar">تخار</option>
+                  <option value="Urozgan">ارزگان</option>
+                  <option value="Wardak">وردک</option>
+                  <option value="Zabul">زابل</option>
+                </select>
+              </div>
+              <br /><br /><br />
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class="registration-form btn-outline-custom">
+            <form id="driverForm">
+              <div class="mb-3">
+                <label class="form-label">ولسوالی</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="district"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">کلی</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="village"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">بریښنالیک (ایمیل)</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">د موټر چلونکي انځور</label>
+                <input
+                  type="file"
+                  class="form-control"
+                  name="driverPhoto"
+                  accept="image/*"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">د تذکرې انځور</label>
+                <input
+                  type="file"
+                  class="form-control"
+                  name="idPhoto"
+                  accept="image/*"
+                  required
+                />
+              </div>
+
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="termsCheck"
+                  required
+                />
+                <label class="form-check-label" for="termsCheck"
+                  >زه د قوانینو مننه کوم</label
+                >
+              </div>
+
+              <a
+                href="driver_success.html"
+                class="btn-outline-custom w"
+                
+              >
+                ثبت
+            </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/driver-registration.js"></script>
+  </body>
+</html>

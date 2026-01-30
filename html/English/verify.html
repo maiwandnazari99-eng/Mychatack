@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Code</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/verify.css" />
+    <link rel="icon" href="../../photos/web_logo.png" />
+  </head>
+  <body>
+    <div class="card" dir="ltr">
+      <h5 class="mb-2 mb-5">Enter the 4-digit verification code</h5>
+      <div class="mb-2 text-muted small">
+        A verification code has been sent to your number:
+        <strong id="phoneDisplay">-</strong>
+      </div>
+
+      <div class="otp-row mb-3" dir="ltr">
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+        <input
+          type="text"
+          maxlength="1"
+          class="otp-input"
+          inputmode="numeric"
+        />
+      </div>
+
+      <div class="d-flex justify-content-center gap-2 mb-2">
+        <button id="verifyBtn" class="btn-outline-custom w2 btn-sm">
+          Verify
+        </button>
+      </div>
+
+      <div id="msg" class="msg"></div>
+    </div>
+
+    <script src="../../js/verify.js"></script>
+  </body>
+</html>
