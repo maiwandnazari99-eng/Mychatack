@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+.some {
+    margin-left: 80px;
+    padding-top: 80px;
+   color: #0D1164;
+}
+.some h1{
+    font-size: 100px;
+
+}
+.formm{
+    color: #0D1164;
+}
+.formm input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 4px #0D1164;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding:10px ;
+
+}
+.formm textarea{
+    width: 100%;
+    margin-top: 35px;
+    height: 200px;
+    border: none;
+    box-shadow: 0 0 4px #0D1164;
+    border-radius: 10px;
+    padding:10px ;
+}
+.formm input :active{
+    border: 3px solid #0D1164;
+}
+
+.formm h5{
+    background-color: #33A1E0;
+
+    width: 120px;
+    height: auto;
+    text-align: center;
+   
+   
+}
+#chec{
+   
+    align-items: start;
+    height: 20px;
+    width: 50px;
+    margin-top: 35px;
+    
+}
+.col-6 img{
+    width: 100%;
+    height: 600px;
+}
+
+

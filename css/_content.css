@@ -1,0 +1,33 @@
+.ride h4,.driver h4,.deliver h4 ,.shopping h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mobile-custom{
+    display: inline-block;
+    margin-top: 80px;
+}
+.play-stor,.app-stor{
+    box-shadow: 0 2px 4px #0D1164;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.play-stor:hover,.app-stor:hover{
+    box-shadow: 0 2px 4px #33A1E0;
+    transform: translateY(-3px);
+}
+.second-page-text a.content{
+    padding: 5px;
+    background-color: #33A1E0;
+    box-shadow: 0 0 4px ;
+    border-radius: 12px;
+    color: #0D1164;
+}
+.second-page-text a:hover{
+    background-color: #0D1164;
+    box-shadow: 0 0 4px #33A1E0;
+    color: #33A1E0;
+    border-radius: 12px;
+    transform: translateY(-3px);
+    transition:all .5s ease-in-out;
+}

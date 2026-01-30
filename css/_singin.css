@@ -1,0 +1,19 @@
+.login-blue{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 0%;
+}
+input{
+    margin-top: 30px!important;
+}
+span a img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width:780px){
+    .login-blue{
+    background-color: var(--background-color);
+    height: 93vh;
+    color: var(--text-color);
+}
+    
+}

@@ -1,0 +1,52 @@
+body {
+  background: #f1f5f9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  min-height:100vh;
+}
+.card {
+  width:450px;
+  padding:25px;
+  border-radius:30px!important;
+  box-shadow: 0 2px 4px #00c8ff;
+  text-align:center;
+  background:#ffffff;
+}
+
+.btn-outline-custom {
+  background-color:#00c8ff !important;  /* شفاف از اول */
+  color: #0D1164!important;                /* رنگ متن اولیه */
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px #0D1164;
+}
+.btn-outline-custom:hover {
+  background-color:#93d7ff !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+.btn-outline-custom2{
+  background-color: #33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+
+}
+.w2{
+   border-radius:10px;
+   width: 200px!important;
+   border: none;
+}
+
+.w1{
+   width: 300px!important;
+   height: 35px!important;
+}
+.card2{
+  display: none;
+}
+.code{
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow: 0 2px 4px #00c8ff;
+  border-radius: 12px;
+}

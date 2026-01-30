@@ -1,0 +1,45 @@
+body {
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .registration-form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        .form-label {
+            font-weight: bold;
+        }
+
+        
+	.btn-outline-custom {
+  background-color:#33A1E0 !important;  /* شفاف از اول */
+  color: #0d1164 !important;                /* رنگ متن اولیه */
+ 
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.btn-outline-custom:hover {
+  background-color:#93d7ff !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+.btn-outline-custom2{
+  background-color: #33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+
+}
+.w{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bg{
+  background-color: rgb(246, 251, 255);
+}
+

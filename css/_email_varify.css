@@ -1,0 +1,49 @@
+*{
+    color: var(--text-color);
+}
+.email_varify{
+    background-color: var(--background-color);
+    height: 340px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 0 2px 4px var(--background-color);
+    margin:auto auto;
+}
+h1{
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.code{
+    font-size: 14px;
+    margin-top:20px;
+    margin-bottom: -25px;
+}
+.e_email{
+    font-size: 30px;
+    background-color: var(--background-color-a);
+    border: none;
+    border-radius: 12px;
+    width: 108px!important;
+}
+.e_email:focus{
+    outline: none;
+} 
+.send_agin{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.e_submit{
+    background-color: var(--background-color);
+    border: 1px solid var(--text-color);
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+}
+.e_submit:hover{
+    background-color: var(--background-color-a);
+}
+a{
+    color: var(--text-color);
+    font-size: 14px;
+}

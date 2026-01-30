@@ -1,0 +1,79 @@
+body {
+  background: #fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  font-family:Tahoma,Arial;
+}
+.card {
+  width:400px;
+  padding:25px;
+  border-radius:20px!important;
+  box-shadow:0 0 4px 1px  #33A1E0!important;
+  text-align:center;
+  background:white;
+}
+.otp-input {
+  width:50px;
+  height:50px;
+  font-size:1.6rem;
+  text-align:center;
+  border-radius:8px;
+  border:1px solid #cbd5e1;
+}
+.otp-input:focus {
+  border-color:#2563eb;
+  box-shadow:0 0 4px rgba(37,99,235,0.25);
+  outline:none;
+}
+.otp-row {
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-direction:row-reverse;
+}
+.msg {
+  min-height:1.4rem;
+  margin-top:10px;
+  color:red;
+}
+.btn-sm {
+  padding:0.375rem 0.75rem;
+}
+
+.btn-outline-custom {
+  background-color:#33A1E0 !important;  /* شفاف از اول */
+  color: #0d1164 !important;                /* رنگ متن اولیه */
+ 
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.btn-outline-custom:hover {
+  background-color:#93d7ff !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+.btn-outline-custom2{
+  background-color: #33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+
+}
+.w{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bd{
+  border-radius: 30px!important;
+}
+.btn-outline-custom1{
+    color: #0D1164;
+    
+}
+.w2{
+   border-radius:10px!important;
+   border: none;
+}
+.mar-t{
+   margin-top: 350px;
+}

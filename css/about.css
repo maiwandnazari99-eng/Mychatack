@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    overflow: none;
+    overflow-x: hidden;
+
+}
+.header{
+    background:url('../photos/about_background.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: -20px!important;
+}
+.header h1{
+    font-size: 80px;
+    color: white;
+   padding-top: 150px;
+   font-weight: bold;
+
+}
+.header p{
+    font-size: 28px;
+    color:white;
+    font-weight: bold;
+}
+.about{
+    margin-left: 10px;
+    padding: 40px;
+    text-align: justify;
+   
+    color: #0D1164;
+    line-height: 20px;
+    
+    text-wrap:no wrap;
+}
+.about h1,h3{
+   
+    margin-bottom: 10px;
+    font-weight: bold;
+
+
+}
+.lable{
+    background:url('../photos/۴.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+
+}
+.lable h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+.vission{
+    padding: 20px;
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: justify;
+    color: #0D1164;
+}
+.mission{
+    color: #0D1164;
+    text-align: justify;
+    font-size: 16;
+}
+.why_chatack{
+    color: #0D1164;
+    text-align: justify;
+    line-height: 1.8;
+}
+.why_chatack button{
+    background-color:#33A1E0;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 20px;
+
+
+}
+.why_chatack a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.services{
+    color: #0D1164;
+    text-align: justify;
+    line-height: 1.9;
+}
+.services h1{
+    padding-bottom: 20px;
+}
+.last-content{
+    color: #0D1164;
+    text-align: center;
+    margin-top: 20px 40px;
+    padding-top: 20px;
+}
+   
+
+
+

@@ -1,0 +1,84 @@
+/* بدنه */
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 50px 0;
+  min-height: 100vh;
+  background: transparent;
+}
+
+/* بسته بندی هر کارت */
+.taxi-card-wrapper {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* عنوان کارت بیرون از کارت */
+.taxi-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* کارت شیشه‌ای */
+.taxi-card {
+  height: 260px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* افکت هاور */
+.taxi-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 50px rgba(0,0,0,0.35);
+}
+
+/* بدنه کارت برای دکمه پایین */
+.card-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0,0,0,0.25);
+}
+
+/* دکمه کارت */
+.btn-custom {
+  background: linear-gradient(135deg, #33A1E0, #00CFFF);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 8px 0;
+  width: 90%;
+  align-self: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #00CFFF, #33A1E0);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+  .taxi-card-wrapper {
+    margin-bottom: 25px;
+  }
+}

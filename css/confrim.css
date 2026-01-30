@@ -1,0 +1,77 @@
+body {
+      direction: rtl;
+      font-family: "Vazir", sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    }
+
+    .card {
+      max-width: 500px;
+      margin: 50px auto;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .card img {
+      width: 80%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #212529;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: #495057;
+    }
+
+    .text-success {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #0d6efd !important;
+    }
+
+    .btn-confirm {
+      border-radius: 50px;
+      font-weight: bold;
+      padding: 10px 0;
+      transition: all 0.3s;
+    }
+
+    
+        
+	.btn-outline-custom {
+  background-color:#33A1E0 !important;  /* شفاف از اول */
+  color: #0d1164 !important;                /* رنگ متن اولیه */
+ 
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.btn-outline-custom:hover {
+  background-color:#93d7ff !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+.btn-outline-custom2{
+  background-color: #33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+
+}
+.w{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bd{
+  border-radius: 30px!important;
+}
+.btn-outline-custom1{
+    color: #0D1164;
+}

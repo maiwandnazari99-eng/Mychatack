@@ -1,0 +1,29 @@
+body { background: #fff; min-height:100vh; display:flex; align-items:center; justify-content:center; }
+    .card { max-width:700px; width:100%; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+    .card-body { padding:2rem; }
+    .form-label { font-weight:600; }
+
+
+
+        
+	.btn-outline-custom {
+  background-color:#33A1E0 !important;  /* شفاف از اول */
+  color: #0d1164 !important;                /* رنگ متن اولیه */
+  width: 100%;
+  transition: all 0.3s ease;
+  padding: 12px;
+}
+.btn-outline-custom:hover {
+  background-color:#93d7ff !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+.btn-outline-custom2{
+  background-color: #33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+
+}
+.w{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}

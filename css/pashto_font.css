@@ -1,0 +1,9 @@
+@font-face {
+    font-family: noto;
+    src: url('../fonts/Noto\ Nastaliq\ Urdu\ Medium\ .ttf') format('ttf');
+    font-weight: normal;
+    font-size: normal;   
+}
+*{
+    font-family: noto;
+}

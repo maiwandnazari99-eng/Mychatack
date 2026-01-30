@@ -1,0 +1,61 @@
+.background-color{
+   background-color: #93d7ff!important;
+}
+#map { 
+   height: 500px; 
+   border: 1px solid #33A1E0;
+   box-shadow: 0 0 4px 1px #33A1E0;
+   border-radius: 12px; 
+   margin-top: 30px; 
+}
+
+.w1{
+   width: 300px!important;
+   height: 35px!important;
+}
+
+   
+.w2{
+   width: 500px!important;
+   height: 35px!important;
+}     
+.btn-outline-custom {
+  background-color:#93d7ff !important;  /* شفاف از اول */
+  color: #0d1164 !important;                /* رنگ متن اولیه */
+  height: 50px;
+  width: 200px;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 1px #0D1164;
+
+}
+.btn-outline-custom:hover {
+  background-color:#33A1E0 !important;    /* رنگ پس‌زمینه هنگام هاور */
+  color: #0D1164 !important;               /* رنگ متن هنگام هاور */
+}
+
+.w{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bd{
+  border-radius: 30px!important;
+}
+.confirm{
+   background-color: #33A1E0!important;
+   box-shadow: 0 0 4px 1px #33A1E0;
+   border: none;
+}
+.confirm:hover{
+   background-color: #93d7ff!important;
+   box-shadow: 0 0 4px 1px #0D1164;
+}
+.container-custom{
+   background-color: #33A1E0;
+   color: #0D1164;
+   border-radius: 12px;
+   margin-top: 30px;
+   box-shadow: 0 0 4px 1px #33A1E0; 
+} 

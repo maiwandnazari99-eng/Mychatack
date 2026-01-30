@@ -1,0 +1,43 @@
+body {
+  background: #f1f5f9;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  font-family:Tahoma,Arial;
+}
+.card {
+  width:400px;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.07);
+  text-align:center;
+  background:white;
+}
+.otp-input {
+  width:50px;
+  height:50px;
+  font-size:1.6rem;
+  text-align:center;
+  border-radius:8px;
+  border:1px solid #cbd5e1;
+}
+.otp-input:focus {
+  border-color:#2563eb;
+  box-shadow:0 0 4px rgba(37,99,235,0.25);
+  outline:none;
+}
+.otp-row {
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-direction:row-reverse;
+}
+.msg {
+  min-height:1.4rem;
+  margin-top:10px;
+  color:red;
+}
+.btn-sm {
+  padding:0.375rem 0.75rem;
+}
